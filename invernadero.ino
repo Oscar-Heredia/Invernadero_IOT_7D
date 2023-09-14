@@ -4,18 +4,23 @@ dht11 dt;
 lm393 lm;
 #include "LUZLM393.h"
 l_lm393 llm;
+#include "RTC.h"
+DS1307_RTC RTC;
+#include "Tasks.h"   /* Librería propia para controlar las tareas. */
+millis_tasks tsk;
 
 
 void setup(void)
 {
    Serial.begin(9600); 
+   RTC.RTC_init ( );  
 }
 
 void loop(void)
 {
   //dt.lec();
   //lm.lec();
-  llm.lec();
+  //llm.lec();
 }
 
 

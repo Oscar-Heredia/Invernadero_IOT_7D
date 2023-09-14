@@ -1,2 +1,2 @@
 # Invernadero_IOT_7D
-El producto consiste en la creación de invernadero con intervención tecnológica.
+El proyecto consiste en la creación de invernadero con intervención tecnológica
